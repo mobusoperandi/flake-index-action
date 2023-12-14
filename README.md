@@ -19,6 +19,8 @@ on:
 
 jobs:
   index:
-
+    steps:
+      - uses: actions/checkout@v4
+      - 
 
 ```
