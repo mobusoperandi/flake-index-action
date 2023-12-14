@@ -20,7 +20,7 @@ on:
 jobs:
   index:
     steps:
-      - uses: actions/checkout@v4
-      - 
-
+      - uses: mobusoperandi/flake-index-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
